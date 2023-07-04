@@ -1,0 +1,22 @@
+.wrapper {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    text-align: center;
+}
+
+.headerContent {}
+
+.addUserContainer {}
+
+.formContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listTable {
+    display: flex;
+    justify-content: center;
+}
