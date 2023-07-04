@@ -17,7 +17,6 @@ export default function Home() {
     const [id, setId] = useState();
     const onSubmit = data => {
         if (id) {
-            console.log('data for update', data.name);
             updateUser({
                 variables: {
                     id: id,
@@ -28,7 +27,6 @@ export default function Home() {
                 }
             })
         } else {
-            console.log('data for create user', data)
             setShowForm(!showForm)
             createUser({ variables: data })
         }
